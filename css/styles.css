@@ -1,5 +1,15 @@
+.container-fluid{
+  background-color: gray;
+}
+.space-top{
+height: 10vh ;
+background-color:gray;
+}
+.space-left{
+  height: 80vh;
+}
 .container-login{
-height: 80vh;
+height: 500px;
 
 }
 #sing-in{
@@ -13,16 +23,19 @@ height: 80vh;
   border-bottom-right-radius:3%;
 }
 #head-sing-in{
-  height:20vh; 
+  height:90px; 
   background-color: transparent;
   font-size: x-large;
   padding-top: 15%;
   padding-left:15%;
 }
 #form-sing-in{
-  height: 50vh;
+  height: 30vh;
   padding-left: 15%;
   padding-right: 15%;
-  padding-top: 10%;
+  padding-top: 3%;
   padding-bottom:10%;
+}
+.form-login{
+  height: :50vh;
 }
