@@ -15,35 +15,80 @@
 		</div>
 		<div class="row">
 			<div class="col-1 space-left"></div>			
-			<div class="col-5 container-login" id="sing-in">
+			<div class="col-5 container-login" id="selection">
 				<div class="row">
-					<div class="col-12" id="head-sing-in">Sing in</div>
-					<div class="col-12" id="form-sing-in">
-						<form class="form-login">
+					<div class="col-12"id="head-selection">
+						<h2 class="text-center">Welcome</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 text-center">
+						<img src="img/radio-login.png" class="img-fluid" id="image-radio">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 text-center">
+						<button type="button" class="btn btn-primary btn-lg" id="btn-createAccount">Create account</button>
+						<br>
+						<button type="button" class="btn btn-success btn-lg" id="btn-sing-in">Sing-in</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-5 container-login" id="container-sing-in">
+				<div class="row">
+					<div class="col-12 text-center">
+						<img src="img/radio-form-login.png" class="img-fluid" id="image-form-radio">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12" id="container-form-sing-in">
+						<form class="form-sing-in">
   							<div class="form-group">
 	    						<label for="exampleInputEmail1">Email address</label>
-							    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							    <input type="email" class="form-control">
  							   	<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						   </div>
 						   <div class="form-group">
 	 					  		<label for="exampleInputPassword1">Password</label>
-							    <input type="password" class="form-control" id="exampleInputPassword1">
+							    <input type="password" class="form-control">
 	  						</div>
   							<div class="form-group form-check">
     							<input type="checkbox" class="form-check-input" id="exampleCheck1">
     							<label class="form-check-label" for="exampleCheck1">Check me out</label>
   							</div>
-  							<button type="submit" class="btn btn-primary">Submit</button>
+  							<button type="submit" class="btn btn-primary">Sing in</button>
+						</form>
+					</div>
+					<div class="col-12" id=container-form-create-account>
+						<form class="form-sing-in">
+							<div class="form-group">
+	    						<label for="exampleInputUserName">User name</label>
+							    <input type="user" class="form-control">
+						   </div>
+  							<div class="form-group">
+	    						<label for="exampleInputEmail1">Email address</label>
+							    <input type="email" class="form-control">
+ 							   	<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						   </div>
+						   <div class="form-group">
+	 					  		<label for="exampleInputPassword1">Password</label>
+							    <input type="password" class="form-control">
+	  						</div>
+  							<div class="form-group form-check">
+    							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    							<label class="form-check-label" for="exampleCheck1">Check me out</label>
+  							</div>
+  							<button type="submit" class="btn btn-primary">Sing up</button>
 						</form>
 					</div>
 				</div>
 			</div>
-			<div class="col-5 container-login" id="sing-up"></div>
 			<div class="col-1" style="height: 80vh"></div>
 		</div>
 		<div class="row" style="height: 10vh ;background-color:gray;">
 			<div class="col-12"></div>
 		</div>					
 	</div>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
